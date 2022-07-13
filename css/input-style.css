@@ -11,18 +11,21 @@
     height: 10%;
     text-align: center;
 
+    outline: none;
     border: 0;
     border-bottom: 3px solid black;
 
     padding: 0px;
     margin: 0px;
+    background: transparent;
 
     font-size: 5vw;
     text-overflow: clip;
 }
 
 #inputData::placeholder {
-    opacity: 0.5;
+    opacity: 0.7;
+    color: black;
 
 }
 

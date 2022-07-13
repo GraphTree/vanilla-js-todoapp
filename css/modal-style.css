@@ -11,12 +11,12 @@
     position : fixed;
     right: 3%;
     bottom: 3%;
-    height : 5vh;
-    width : 5vh;
+    height : 6vh;
+    width : 6vh;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.2);
     font-weight : bold;
-    font-size: 1vw;
+    font-size: 0.8vw;
 
     display: inline-block;
 }

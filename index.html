@@ -15,7 +15,9 @@
     <body>
         <!-- input for name and todo -->
         <form id="inputForm">
-            <input type="text" id="inputData" placeholder="Write your name"/>
+            <input type="text" id="inputData" placeholder="Write your name"
+            onfocus='this.placeholder=""' onblur="this.placeholder = placeholder"
+            />
         </form>
 
         <!-- modal popup to show and edit todo list -->

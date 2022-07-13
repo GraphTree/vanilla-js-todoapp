@@ -2,6 +2,7 @@
 html {
     background : url(../img/0.png);
     background-repeat: no-repeat;
-    background-size: cover;    
+    background-size: cover;   
+    opacity: 0.9; 
 
 }
