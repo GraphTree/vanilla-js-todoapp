@@ -6,15 +6,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">        
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/background-style.css">
+        <link rel="stylesheet" href="css/input-style.css">
+        <link rel="stylesheet" href="css/modal-style.css">
         <title>ToDo</title>    
     </head>
 
     <body>
+        <!-- input for name and todo -->
         <form id="inputForm">
-            <input type="text" id="name" value="Write your name"/>
+            <input type="text" id="inputData" placeholder="Write your name"/>
         </form>
 
+        <!-- modal popup to show and edit todo list -->
         <button id="modal-trigger">ToDo List</button>
         <div class="modal">
             <div class="modal-content">
