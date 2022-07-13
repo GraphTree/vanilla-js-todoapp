@@ -1,0 +1,29 @@
+
+/* name filling input style */
+#inputData {
+    position: absolute;
+
+    top: 40%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+    width: 60%;    
+    height: 10%;
+    text-align: center;
+
+    border: 0;
+    border-bottom: 3px solid black;
+
+    padding: 0px;
+    margin: 0px;
+
+    font-size: 5vw;
+    text-overflow: clip;
+}
+
+#inputData::placeholder {
+    opacity: 0.5;
+
+}
+
+/* todo filling input style */
