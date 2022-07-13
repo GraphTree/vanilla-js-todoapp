@@ -1,23 +1,36 @@
 /* background */
-html {
+/* html {
     background : url(image_to_add);
     background-repeat: no-repeat;
     background-size: cover;    
 
-}
+} */
 
 /* modal css style */
+#modal-trigger {
+    position : fixed;
+    right: 3%;
+    bottom: 3%;
+    height : 5vh;
+    width : 5vh;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight : bold;
+    font-size: 1vw;
+
+    display: inline-block;
+}
 .modal {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(1.1);
-    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    background-color:rgba(0, 0, 0, 0.3);
+    /* opacity: 1; */
+    display: none;
+    /* transform: scale(1.1); */
+    /* transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s; */
 }
 
 .modal-content {
@@ -27,7 +40,7 @@ html {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 1rem 1.5rem;
-    width: 24rem;
+    width: 40%;
     border-radius: 0.5rem;
 }
 
@@ -46,9 +59,9 @@ html {
 }
 
 .show-modal {
-    opacity: 1;
-    visibility: visible;
+    /* opacity: 1; */
+    /* visibility: visible; */
+    display : initial;
     transform: scale(1.0);
-    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+    /* transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s; */
 }
-
