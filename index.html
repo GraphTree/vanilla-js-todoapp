@@ -14,22 +14,24 @@
 
     <body>
         <!-- input for name and todo -->
-        <form id="inputForm">
+        <!-- <form id="inputForm"> -->
             <input type="text" id="inputData" placeholder="Write your name"
             onfocus='this.placeholder=""' onblur="this.placeholder = placeholder"
             />
-        </form>
+        <!-- </form> -->
 
         <!-- modal popup to show and edit todo list -->
         <button id="modal-trigger">ToDo List</button>
         <div class="modal">
             <div class="modal-content">
                 <span class="close-button">&times;</span>
-                <h1>Hello, i am a modal</h1>
+                <h1>Your ToDo List</h1>
+                <ul id="toDoList"></ul>
             </div>
         </div>
 
 
     <script src="js/modal.js"></script>
+    <script src="js/todo.js"></script>
     </body>
 </html>
